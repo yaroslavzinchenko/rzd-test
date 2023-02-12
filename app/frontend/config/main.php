@@ -49,7 +49,7 @@ return [
             'rules' => [
                 '/' => 'users/index',
                 '/request' => 'request/request',
-                '/<id>' => 'users/user',
+                '/<uid>' => 'users/user',
 //                '<module:gii>/<controller:\w+>/<action:\w+>' => '<module>/<controller>/<action>',
 //                '/admin/users' => 'admin/users/index',
             ],

@@ -20,7 +20,7 @@ class UsersController extends Controller
         ]);
     }
 
-    public function actionUser($id)
+    public function actionUser($uid)
     {
         $model = new RequestForm();
 
@@ -37,7 +37,7 @@ class UsersController extends Controller
         } else {
             // либо страница отображается первый раз, либо есть ошибка в данных
 
-            $user = Users::findOne($id);
+            $user = Users::findOne(['uid' => $uid]);
             if (!$user) {
                 throw new NotFoundHttpException("Такой пользователь не существует.");
             }

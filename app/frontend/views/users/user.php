@@ -12,7 +12,7 @@ use yii\widgets\ActiveForm;
     <li>Имя: <?= Html::encode("{$user->name}") ?></li>
     <li>Логин: <?= Html::encode("{$user->login}") ?></li>
     <li>Электронная почта: <?= Html::encode("{$user->email}") ?></li>
-    <li>Уникальный идентификатор<?= Html::encode("{$user->uid}") ?></li>
+    <li>Уникальный идентификатор: <?= Html::encode("{$user->uid}") ?></li>
 </ul>
 
 
