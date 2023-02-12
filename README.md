@@ -68,7 +68,10 @@ mkdir /var/www/app/log
 
 ![img_8.png](img_8.png)
 
-Перейдём на страницу пользователя, например `http://www.example.com/bfy9FU9DGtcCr7h1oib0tz0FokIaESQm`.
+Перейдём на страницу пользователя, например `http://www.example.com/bfy9FU9DGtcCr7h1oib0tz0FokIaESQm`,
+где `bfy9FU9DGtcCr7h1oib0tz0FokIaESQm` - уникальный идентификатор
+пользователя, который присваивается ему при создании (как через миграцию,
+так и через CRUD-админку).
 
 ![img_11.png](img_11.png)
 
