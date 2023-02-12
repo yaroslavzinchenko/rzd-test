@@ -40,7 +40,7 @@ php /var/www/app/yii migrate
 
 ![img_20.png](img_20.png)
 
-8. Создать папку для логов:
+8. Создать папку для логов (внутри контейнера):
 ```shell
 mkdir /var/www/app/log
 ```
