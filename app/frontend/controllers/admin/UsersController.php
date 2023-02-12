@@ -27,6 +27,16 @@ class UsersController extends Controller
                         'delete' => ['POST'],
                     ],
                 ],
+                /*'basicAuth' => [
+                    'class' => \yii\filters\auth\HttpBasicAuth::class,
+                    'auth' => function ($username, $password) {
+                        if ($username !== 'admin' && $password !== 'rzd') {
+                            return null;
+                        } else {
+
+                        }
+                    },
+                ],*/
             ]
         );
     }

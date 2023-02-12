@@ -9,5 +9,7 @@ RUN rm -Rf /etc/nginx/sites-enabled/*
 
 # Добавляем наш конфиг
 ADD docker/conf/nginx/site.conf /etc/nginx/sites-available/site.conf
+ADD docker/conf/nginx/.htpasswd /etc/nginx/sites-available/.htpasswd
 # Включаем его
 RUN ln -s /etc/nginx/sites-available/site.conf /etc/nginx/sites-enabled/site.conf
+RUN ln -s /etc/nginx/sites-available/.htpasswd /etc/nginx/sites-enabled/.htpasswd
