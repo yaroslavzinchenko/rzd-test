@@ -41,7 +41,7 @@ php /var/www/app/yii migrate
 ![img_20.png](img_20.png)
 
 8. Создать папку для логов:
-```angular2html
+```shell
 mkdir /var/www/app/log
 ```
 
