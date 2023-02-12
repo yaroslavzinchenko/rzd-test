@@ -24,7 +24,7 @@ cd .. && docker-compose -f docker/docker-compose.yml up -d
 docker exec -it docker_app_1 bash
 ```
 
-7. Запустить миграции БД:
+7. Запустить миграции БД (внутри контейнера):
 ```shell
 php /var/www/app/yii migrate
 ```
