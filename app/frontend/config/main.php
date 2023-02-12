@@ -21,11 +21,11 @@ return [
         'request' => [
             'csrfParam' => '_csrf-frontend',
         ],
-        /*'user' => [
+        'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
-        ],*/
+        ],
         /*'session' => [
             // this is the name of the session cookie used for login on the frontend
             'name' => 'advanced-frontend',
@@ -51,6 +51,7 @@ return [
                 '/request' => 'request/request',
                 '/<id>' => 'users/user',
 //                '<module:gii>/<controller:\w+>/<action:\w+>' => '<module>/<controller>/<action>',
+//                '/admin/users' => 'admin/users/index',
             ],
         ],
 
