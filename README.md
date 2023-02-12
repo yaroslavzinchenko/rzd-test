@@ -98,3 +98,8 @@ mkdir /var/www/app/log
 с пользователями.
 
 ![img_17.png](img_17.png)
+
+Для остановки приложения в папке репозиторием сказать
+```shell
+docker-compose -f docker/docker-compose.yml down
+```
